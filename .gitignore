@@ -1,0 +1,30 @@
+#backend
+# ignor folder
+backend/.venv/
+backend/media/
+backend/staticfiles/
+backend/core/settings/.env
+backend/core/settings/.env.dev
+backend/core/settings/.env.prod
+backend/.idea/
+
+# __pycache__ ignor
+**/__pycache__/
+
+# ignor bd
+backend/db.sqlite3
+
+# ignor log files
+**.log
+
+# ignor settings
+backend/settings_dev.py
+backend/settings_prod.py
+
+# ignor log files
+**.log
+
+#frontend
+# ignor folder
+frontend/node_modules/
+frontend/dist/
